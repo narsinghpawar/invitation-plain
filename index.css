@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: "hindi-n";
-  src: url("/fonts/SAMARN__.TTF");
+  src: url("/invitation-plain/fonts/SAMARN__.TTF");
 }
 
 @font-face {
   font-family: "hindi-o";
-  src: url("/fonts/SAMARO__.TTF");
+  src: url("/invitation-plain/fonts/SAMARO__.TTF");
 }
 
 * {
