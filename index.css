@@ -1,0 +1,111 @@
+:root {
+  --maroon: #91000a;
+  --gold: #d5af7c;
+  --new-gold: #ffb380;
+}
+
+@font-face {
+  font-family: "hindi-n";
+  src: url("/fonts/SAMARN__.TTF");
+}
+
+@font-face {
+  font-family: "hindi-o";
+  src: url("/fonts/SAMARO__.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  color: var(--new-gold);
+}
+
+.invitation {
+  box-shadow: rgba(145, 0, 10, 0.4) 5px 5px, rgba(145, 0, 10, 0.3) 10px 10px,
+    rgba(145, 0, 10, 0.2) 15px 15px, rgba(145, 0, 10, 0.1) 20px 20px,
+    rgba(145, 0, 10, 0.05) 25px 25px;
+  background-color: var(--maroon);
+  padding: 1em;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "hindi-o";
+  margin: 1em;
+}
+
+.top > img {
+  height: 70px;
+  object-fit: contain;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 0.7em;
+  margin: 1em;
+}
+
+.middle > .occ {
+  font-weight: 600;
+}
+
+.middle > .req {
+  font-size: 0.7rem;
+}
+
+.couple {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.couple > .dude,
+.couple > .girl {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "hindi-o";
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.location > .when {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.7em;
+}
+.location > .where {
+  font-size: 0.8rem;
+}
+
+.location > .where > svg {
+  height: 1rem;
+  fill: var(--new-gold);
+}
+
+.footer {
+  font-size: 0.8rem;
+  text-align: center;
+}
