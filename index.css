@@ -37,6 +37,12 @@ body {
   padding: 1em;
 }
 
+@media screen and (max-width: 590px) {
+  .invitation {
+    max-width: 80%;
+  }
+}
+
 .top {
   display: flex;
   justify-content: center;
