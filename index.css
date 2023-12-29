@@ -35,6 +35,23 @@ body {
     rgba(145, 0, 10, 0.05) 25px 25px;
   background-color: var(--maroon);
   padding: 1em;
+  position: relative;
+}
+
+.invitation::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: 0.5em;
+  border: 1px solid var(--new-gold);
+}
+
+.invitation::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: 0.25em;
+  border: 1px solid var(--new-gold);
 }
 
 @media screen and (max-width: 590px) {
