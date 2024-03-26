@@ -36,7 +36,7 @@
       <span class="girl">Ritika</span>
     </div>
     <div class="location">
-      <span class="when">Friday, 26th April 2024 (11:00 PM)</span>
+      <span class="when">Monday, 01<sup>st</sup> April 2024 (12:32 PM)</span>
       <div class="where">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
           <path
@@ -47,6 +47,17 @@
     </div>
     <div class="footer">Best Whishes From Pawar Family</div>
   </div>
+  <script>
+    const url = 'https://maps.app.goo.gl/6EGHEF6A7hD4fdzJ6';
+
+    document.querySelector('.where').addEventListener('click', () => {
+      console.log('clicked');
+      const anchor = document.createElement('a');
+      anchor.href = url;
+      anchor.target = 'blank';
+      anchor.click();
+    });
+  </script>
 </body>
 
 </html>

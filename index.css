@@ -44,6 +44,7 @@ body {
   inset: 0;
   margin: 0.5em;
   border: 1px solid var(--new-gold);
+  pointer-events: none;
 }
 
 .invitation::after {
@@ -52,6 +53,7 @@ body {
   inset: 0;
   margin: 0.25em;
   border: 1px solid var(--new-gold);
+  pointer-events: none;
 }
 
 @media screen and (max-width: 590px) {
